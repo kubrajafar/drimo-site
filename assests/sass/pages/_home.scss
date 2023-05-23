@@ -1,0 +1,146 @@
+// hosting-server start
+#hosting-server {
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/headerBack-img.webp");
+
+  .main-container {
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0;
+      .header-special {
+        margin-bottom: 20px;
+        .header-special-content {
+          background-color: #fc6428;
+          color: #fff;
+          font-size: 36px;
+          padding: 18px 50px;
+          font-family: "Montserrat", sans-serif;
+        }
+        .header-special-shape {
+          width: 0;
+          height: 0;
+          border-left: 15px solid transparent;
+          border-right: 15px solid transparent;
+          border-top: 20px solid #fc6428;
+          margin: 0 auto;
+        }
+      }
+      .header-contentBox {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .header-content {
+          max-width: 742px;
+          color: #fff;
+          .header-content-title {
+            margin-bottom: 20px;
+            h4 {
+              font-size: 50px;
+              font-weight: 500;
+              font-family: "Montserrat", sans-serif;
+            }
+          }
+          .header-content-smallTitle {
+            margin-bottom: 20px;
+
+            h5 {
+              font-size: 36px;
+              font-weight: 300;
+              font-family: "Montserrat", sans-serif;
+            }
+          }
+          .header-contentText {
+            margin-bottom: 30px;
+
+            p {
+              line-height: 28px;
+              letter-spacing: 1px;
+              font-size: 16px;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+          .header-content-list {
+            max-width: 500px;
+            width: 100%;
+            margin-bottom: 40px;
+            font-family: "Poppins", sans-serif;
+            ul {
+              display: grid;
+              grid-template-areas: "auto auto";
+              li {
+                margin-bottom: 20px;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0.32px;
+                i {
+                  margin-right: 10px;
+                }
+              }
+            }
+          }
+          .header-content-btnBox {
+            button {
+              padding: 12px 30px;
+              font-size: 18px;
+              background-color: #fc5a1a;
+              color: #fff;
+              border: none;
+            }
+          }
+        }
+        .header-img {
+          img {
+            max-width: 400px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// hosting-server end
+
+// ourService-section start
+#ourServise {
+  .main-container {
+    .ourService-container {
+      padding: 100px 0;
+      .ourService-content {
+        .ourService-header {
+          margin-bottom: 10px;
+          h2 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 35px;
+            color: #424242;
+            font-weight: 300;
+          }
+        }
+        .ourService-line {
+          width: 70px;
+          height: 2px;
+          background-color: #424242;
+        }
+        .ourService-text {
+          p {
+            font-size: 14px;
+            color: #6b6d6f;
+            font-family: "Poppins", sans-serif;
+          }
+        }
+      }
+      .ourService-cards {
+      }
+    }
+  }
+}
+
+// ourService-section end
