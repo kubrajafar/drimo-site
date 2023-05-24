@@ -178,8 +178,14 @@ a {
 #ourServise .main-container .ourService-container {
   padding: 100px 0;
 }
+#ourServise .main-container .ourService-container .ourService-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 #ourServise .main-container .ourService-container .ourService-content .ourService-header {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 #ourServise .main-container .ourService-container .ourService-content .ourService-header h2 {
   font-family: "Montserrat", sans-serif;
@@ -189,11 +195,28 @@ a {
 }
 #ourServise .main-container .ourService-container .ourService-content .ourService-line {
   width: 70px;
-  height: 2px;
+  height: 1.5px;
   background-color: #424242;
+  margin-bottom: 35px;
+}
+#ourServise .main-container .ourService-container .ourService-content .ourService-text {
+  text-align: center;
+  max-width: 450px;
+  width: 100%;
 }
 #ourServise .main-container .ourService-container .ourService-content .ourService-text p {
   font-size: 14px;
   color: #6b6d6f;
   font-family: "Poppins", sans-serif;
-}/*# sourceMappingURL=main.css.map */
+  line-height: 25px;
+}
+#ourServise .main-container .ourService-container .ourService-cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+#ourServise .main-container .ourService-container .ourService-cards .ourService-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
